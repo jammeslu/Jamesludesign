@@ -25,7 +25,6 @@ import ashtrayDetail2 from './projects/academic/modern-ashtray/detail-2.jpg'
 // Light in the Dark
 import lightDetail1 from './projects/academic/light-in-the-dark/detail-1.jpg'
 import lightDetail2 from './projects/academic/light-in-the-dark/detail-2.jpg'
-import lightDetail3 from './projects/academic/light-in-the-dark/detail-3.jpg'
 
 // Memphis Clock
 import memphisDetail1 from './projects/academic/memphis-clock/detail-1.jpg'
@@ -105,7 +104,7 @@ export const projectGalleries = {
     },
     'Light in the Dark': {
       main: academic2Img,
-      gallery: [lightDetail1, lightDetail2, lightDetail3]
+      gallery: [lightDetail1, lightDetail2]
     },
     'Memphis Clock': {
       main: academic3Img,

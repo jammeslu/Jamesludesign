@@ -130,6 +130,46 @@
 body {
   background-color: #ffffff;
   color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove all default margins and padding */
+html, body, div, section, main {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure content is flush with navigation */
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide scrollbars for all browsers */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Desktop: No scrolling */
+@media (min-width: 769px) {
+  html, body {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
+
+/* Mobile: Scrollable */
+@media (max-width: 768px) {
+  html, body {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
 }
 
 /* Base typography */

@@ -19,7 +19,7 @@ export default function Navigation({ currentPage, onNavigate, onBack, canGoBack 
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-black/10">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 md:py-8">
+      <div className="max-w-full mx-auto px-4 md:px-6 py-2 md:py-3">
         {/* Desktop Layout */}
         <div className="hidden md:flex items-center justify-between">
           <div className="flex items-center space-x-4">
